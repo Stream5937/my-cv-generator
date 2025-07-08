@@ -1,0 +1,51 @@
+.my_form {
+    width: 100%;
+    height: 100%;
+    color:black;
+    background-color: aliceblue;
+    margin: 5px;
+}
+
+.form-header-title{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.form-header-title > p{
+    font-weight: 700;
+    font-size: 1.4rem;
+}
+
+.form-header-img{
+    width: 24px;
+    height: auto;
+    margin: 0 12px;
+}
+
+.expand-icon{
+    width: 15px;
+    height: 15px;
+    cursor: pointer;
+    margin: 0 2rem;
+}
+
+.save-form {
+    width: 6rem;
+    color:black;
+    margin: 10px;
+}
+
+.input-container {
+    display:grid;
+    border-color: blue;
+    border-radius: 5px;
+    border-width: 2px;
+    width: 90%;
+    margin:0 5% 0 5%;
+}
+
+label {
+    width: 40%;
+    text-align: left;
+}

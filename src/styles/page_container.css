@@ -1,0 +1,106 @@
+/* at media for > tablet*/
+@media (min-width: 1201px) {
+
+.page_container {
+   /* grid-area: 1/2/1/2;*/
+   max-width: 100%;
+   min-width: 500px;
+  /* min-height: 500px;*/
+   height:auto;
+    color: Black;
+    background-color: aqua;
+    margin: 20px;
+    border-style:solid;
+    border-color: blue;
+    border-width: 1px;;
+}
+
+}
+
+
+/*  at media for tablet versions  */
+@media (max-width: 1200px) {
+
+.page_container {
+   max-width: 1150px;
+   min-width: 450px;
+  /* min-height: 500px;*/
+   height:auto;
+    color: Black;
+    background-color: aqua;
+    margin: 20px;
+    border-style:solid;
+    border-color: blue;
+    border-width: 1px;;
+}
+
+}
+
+/* at media mobile */
+@media (max-width: 962px) {
+
+.page_container {
+   max-width: 850px;
+   min-width: 320px;
+   /* min-height: 500px;*/
+   height:auto;
+    color: Black;
+    background-color: aqua;
+    margin: 20px;
+    border-style:solid;
+    border-color: blue;
+    border-width: 1px;
+}
+
+}
+
+button {
+    background-color: red;
+  }
+
+.cv-show {
+    display: grid;
+    align-content: center;
+    justify-content: center;
+    height:auto;
+    margin : 20px;
+    background-color:aqua;
+    padding : 5px;
+    border-style:solid;
+    border-color: blue;
+    border-width: 1px;
+  }
+
+  div#cv-report.cv-section {
+    display:grid;
+    background-color: white;
+  /*  border-style:solid;
+    border-color: red;
+    border-width: 2px; */
+    min-width: 400px;
+    margin: 50px 20px 0px 20px;
+  }
+
+  
+  .cv-basic-info, cv-edu-info, cv-exp-info {
+    display:grid;
+    align-self: center;
+    justify-self: center;
+ /*   border-style:solid;
+    border-color: blue;
+    border-width: 1px;  */
+  /*  padding : 5px; */
+    width: 90%;
+  }
+
+   
+  .basic-form-general-info, .edu-form-education-info, .exp-form-experience-info {
+    background-color: white;
+    display:grid;
+    border-color: blue;
+    border-radius: 5px;
+    border-width: 2px;
+    width: 90%;
+    margin:0 5% 0 5%;
+  }
+  

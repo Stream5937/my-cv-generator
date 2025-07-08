@@ -1,0 +1,14 @@
+
+@media (max-width: 962px) {
+
+.form_container {
+   max-width: 800px;
+   min-width: 300px;
+   height: auto;
+    color: Blue;
+    background-color: rgb(227, 213, 192);
+    margin: 20px;
+}
+
+}
+

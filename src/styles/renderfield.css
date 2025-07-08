@@ -1,0 +1,11 @@
+/*from renderfield */
+
+.key {
+    background-color: aqua;
+    display:grid;
+    border-color: blue;
+    border-radius: 5px;
+    border-width: 2px;
+    width: 90%;
+    margin:0 5% 0 5%;
+}
